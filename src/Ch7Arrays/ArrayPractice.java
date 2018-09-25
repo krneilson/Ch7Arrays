@@ -16,5 +16,15 @@ public class ArrayPractice {
         //Step1&2: declare and initialize
         int[] numbers2 = {1,2,3,4,5};
         System.out.println(Arrays.toString(numbers2));
+        randomArray();
+    }
+
+    public static void randomArray(){
+        int randomNum = (int)(Math.random() * 10 + 1);
+        int[] ranArray = new int[randomNum];
+        for(int i = 0; i < ranArray.length; i++){
+            ranArray[i] = (int)(Math.random() * 10 + 1);
+        }
+        System.out.println(Arrays.toString(ranArray));
     }
 }
