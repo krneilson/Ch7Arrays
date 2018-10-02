@@ -2,6 +2,7 @@
 //average temperature of those days
 //and determines the # of days above the average
 //it also print the user's input and the two hottest and coldest days
+
 package Ch7Arrays;
 
 import java.util.Arrays;
