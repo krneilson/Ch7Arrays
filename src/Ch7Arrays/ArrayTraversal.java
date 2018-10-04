@@ -5,19 +5,21 @@ import java.util.Arrays;
 public class ArrayTraversal {
     public static void main(String[] args) {
         int[] array = {5,4,7,12};
-        array  = abbyAlgo(array);
-        System.out.println(Arrays.toString(array));
-        jonnyAlgo(array);
+        int[] arrayA  = abbyAlgo(array);
+        System.out.println(Arrays.toString(arrayA));
+        int[] arrayB = jonnyAlgo(array);
+        System.out.println(Arrays.toString(arrayB));
     }
 
     //Johny's algorithm uses the concept of an in array swap
-    public static void jonnyAlgo(int[] ja){
+    public static int[] jonnyAlgo(int[] ja){
         for(int i = 0; i <  ja.length / 2; i++){
             int temp = ja[i];
             ja[i] = ja[ja.length-i-1];
-            ja[ja.length-i-1]=temp;
+            ja[ja.length-i-1] = temp;
         }
-        System.out.println(Arrays.toString(ja));
+        //System.out.println(Arrays.toString(ja));
+        return ja;
     }
 
     //Abby's algorithm a temporary array
@@ -29,7 +31,7 @@ public class ArrayTraversal {
             counter++;
         }
         aa=array;
-        System.out.println(Arrays.toString(aa));
+        //System.out.println(Arrays.toString(aa));
         return aa;
     }
 }
