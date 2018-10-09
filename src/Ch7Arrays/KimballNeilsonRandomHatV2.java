@@ -29,7 +29,7 @@ public class KimballNeilsonRandomHatV2 {
             int num = 0;
             boolean x = true;
             do  {
-                num = (int) (Math.random() * (numteams - 1) + 1) + 1;
+                num = (int) (Math.random() * numteams) + 1;
                 x =  uniqueNum (teamArray, num);
 
             }while (x == true);
