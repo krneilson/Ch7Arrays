@@ -13,7 +13,7 @@ public class KimballNeilsonRandomHat {
     public static int[] pickTeams(){
         int[] teamArray = new int[8];
         for(int i = 0; i <= teamArray.length - 1; i++){
-            int num = (int) (Math.random() * 8) + 1;
+            int num = 0;
             boolean x = true;
            do  {
                 num = (int) (Math.random() * 8) + 1;
@@ -41,7 +41,7 @@ public class KimballNeilsonRandomHat {
     }
 
     public static void printTeams(int[] teams){
-        for(int i = 0; 1 <= 6; i+=2) {
+        for(int i = 0; i<= 6; i+=2) {
             System.out.println("Team " + teams[i] + " vs. Team " + teams[i+1]);
         }
     }
