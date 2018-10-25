@@ -24,6 +24,17 @@ public class ArrayPractice {
         num = 5713523;
         System.out.println("Mode is: " + goodmode(num));
 
+        int h = 2;
+        h = 2%8;
+        System.out.println(h);
+
+        String[] names = {"hah", "hhshs", "dhdh", "kimball"};
+
+        for(int i = names.length-1; i >= 0; i--){
+            //for(int j = names[i].length()-1; j)
+            System.out.print(names[i]+ " ");
+        }
+
     }
 
     public static void randomArray() {
