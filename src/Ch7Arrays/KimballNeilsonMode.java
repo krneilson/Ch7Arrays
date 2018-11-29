@@ -6,7 +6,7 @@ public class KimballNeilsonMode {
 
         //number can be set to the desired number by commenting line 9 out
         int num = 669360267;
-        num = 5713523;
+        //num = 5713523;
         //program is using the number from the tie example
         System.out.println("Mode is: " + goodmode(num));
     }
