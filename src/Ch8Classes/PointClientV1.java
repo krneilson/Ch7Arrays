@@ -9,6 +9,8 @@ public class PointClientV1 {
         p1.y = 6;
         System.out.println("p1: (" + p1.x + ", " + p1.y + ")");
 
+        
+
         PointV1 p2 = new PointV1();
 
         p2.x = 7;
@@ -16,5 +18,7 @@ public class PointClientV1 {
         System.out.println("p2: (" + p2.x + ", " + p2.y + ")");
         System.out.println(p2.distance(p1));
         System.out.println(p1.distanceFromOrign());
+
+
     }
 }
