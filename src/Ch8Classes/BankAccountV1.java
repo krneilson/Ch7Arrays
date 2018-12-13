@@ -58,4 +58,9 @@ public class BankAccountV1 {
         balance -= amount;
     }
 
+    //toString method below
+    public String toString(){
+        return("Name: " + name + "\nBalance: " + balance);
+    }
+
 }
