@@ -2,7 +2,7 @@ package Ch8Classes;
 
 public class BankAccountClient {
     public static void main(String args[]){
-        BankAccountV1 kimball = new BankAccountV1("kimball", "0000000001",
+        KimballNeilsonBankAccountV1 kimball = new KimballNeilsonBankAccountV1("kimball", "0000000001",
                 "702 Prospect Ave, Mamaroneck, NY, 10543, United States of America",
                 "12272001");
         kimball.deposit(9999999.99);

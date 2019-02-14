@@ -9,7 +9,7 @@ public class PointClientV1 {
         p1.y = 6;
         System.out.println("p1: (" + p1.x + ", " + p1.y + ")");
 
-        
+
 
         PointV1 p2 = new PointV1();
 
